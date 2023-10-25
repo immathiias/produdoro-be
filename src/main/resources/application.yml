@@ -8,3 +8,7 @@ spring:
       authentication-database: admin
       uri: ${MONGO_DB_URI:mongodb+srv://devmathiasx:OOEJkevofL2flYXB@wakanda.ilfwhj2.mongodb.net/wakanda?retryWrites=true&w=majority}
       auto-index-creation: true
+      
+springdoc:
+  swagger-ui:
+    path: /swagger
