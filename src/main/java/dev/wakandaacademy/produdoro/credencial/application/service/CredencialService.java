@@ -2,17 +2,15 @@ package dev.wakandaacademy.produdoro.credencial.application.service;
 
 import org.springframework.stereotype.Service;
 
-import dev.wakandaacademy.produdoro.usuario.application.api.UsuarioCriadoResponse;
 import dev.wakandaacademy.produdoro.usuario.application.api.UsuarioNovoRequest;
-import dev.wakandaacademy.produdoro.usuario.application.service.UsuarioApplicationService;
 import jakarta.validation.Valid;
 
 @Service
-public class CredencialService implements UsuarioApplicationService {
-
+public class CredencialService implements CredencialApplicationService {
 	@Override
-	public UsuarioCriadoResponse criaNovoUsuario(@Valid UsuarioNovoRequest usuarioNovo) {
-		return null;
+	public void criaNovaCredencial(@Valid UsuarioNovoRequest usuarioNovo) {
+		// TODO Implementar metodo para criar nova credencial
+		
 	}
 
 }

@@ -9,6 +9,7 @@ public class PomodoroService implements PomodoroApplicationService {
 
 	@Override
 	public ConfiguracaoPadrao getConfiguracaoPadrao() {
+		//TODO Implementar busca das configuracoes padroes no MongoDB
 		return ConfiguracaoPadrao.builder()
 				.tempoMinutosFoco(25)
 				.tempoMinutosPausaCurto(5)
